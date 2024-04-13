@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Microscope LED Ring Light</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="scripts.js" type="application/javascript"></script>
+
+</head>
+<body>
+<div class="contentcontainer">
+  <h1>Microscope LED Ring Light</h1>
+
+  <p>LED state: <strong id="PowerLabel"></strong></p>
+  <p><button class="button" id="onbutton"  onclick="toggleLED(true)">ON</button></p>
+  <p><button class="button" id="offbutton"  onclick="toggleLED(false)">OFF</button></p>
+  <p>Brightness: <strong id="BrightnessLabel"></strong></p>
+  <p><input type="range" min="0" max="255" value="50" class="slider" id="brightness" oninput="brightnessChange(this.value)"></p>
+  <p>Colour Temperature: <strong id="TemperatureLabel"></strong></p>
+  <p><input type="range" min="1000" max="12000" value="5000" class="slider" id="temperature" oninput="temperatureChange(this.value)"></p>
+  <p>Direction: <strong id="DirectionLabel"></strong></p>
+  <p><input type="range" min="0" max="26" value="0" class="slider" id="direction" oninput="directionChange(this.value)"></p>
+
+</div>
+</body>
+</html>

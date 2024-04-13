@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto;
+    text-align: center;
+    background:#333;
+    color: #fff;
+    width:90%;
+  }
+  h1{
+    padding: 2vh;
+  }
+  p{
+    font-size: 1.5rem;
+  }
+  .button {
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 2px;
+    cursor: pointer;
+  }
+
+.button-on {
+    background-color: #00FF00;
+}
+
+.button-off {
+    background-color: #999;
+}
+
+.contentcontainer {
+    width: 75%; /* Width of the outside container */
+    margin: 0px auto;
+    float:left;
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.directioncontainer{
+    width: 25%; /* Width of the outside container */
+    margin: 0px auto;
+    float:right;
+}
+
+#circle {
+    width:200px;
+    height:200px;
+    border:5px solid #fff;
+    border-radius:100%;
+    float:left;
+    margin-right:40px;
+}
+
+#rotaryslider {
+    position:relative;
+    height:40px;
+    width:40px;
+    background:#fff;
+    left:10px;
+    top:-10px;
+    border-radius:100%;
+    cursor:pointer;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    -moz-appearance: none;
+    border: 2px solid #e6e6e6;
+    border-radius: 4px;
+    color: #818181;
+    display: block;
+    font-size: 1em;
+    height: 30px;
+    padding:0 6px;
+    transition: border 0s ease 0s, width 0.4s ease-in-out 0s;
+}
+
+.range{
+    float:left;
+    width:30px;
+}
