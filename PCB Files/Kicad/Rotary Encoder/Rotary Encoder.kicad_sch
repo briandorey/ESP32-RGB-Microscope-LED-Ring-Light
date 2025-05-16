@@ -1,0 +1,3422 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4ee6c114-93a8-4bf1-967f-c6230650ee4d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Rotary Encoder-eagle-import:+3V3"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#NetPort"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "+3V3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Rotary Encoder-eagle-import:482020514001"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Rotary Encoder:SW_482020514001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "482020514001_1_0"
+				(polyline
+					(pts
+						(xy -10.16 10.16) (xy 10.16 10.16)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -10.16) (xy -10.16 10.16)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 10.16) (xy 10.16 -10.16)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy -10.16 -10.16)
+					)
+					(stroke
+						(width 0.152)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Rotary Encoder-eagle-import:DEV_J1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Rotary Encoder:RHDRV5W80P254_5X1_1320X250H875_AP1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DEV_J1_1_0"
+				(polyline
+					(pts
+						(xy -5.08 6.35) (xy 5.08 6.35)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -6.35) (xy -5.08 6.35)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 6.35) (xy 0.635 5.08)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy 0.635 5.08)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy 0.635 2.54)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0.635 2.54)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0.635 0)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy 0.635 0)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy 0.635 -2.54)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -3.81) (xy 0.635 -2.54)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -3.81) (xy 0.635 -5.08)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -6.35) (xy 0.635 -5.08)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 6.35) (xy 5.08 -6.35)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -6.35) (xy -5.08 -6.35)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "P5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "P4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "P3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "P2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "P1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Rotary Encoder-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#NetPort"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 1.016) (xy 1.905 1.016)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.016) (xy 0.508 -1.016)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 3.556 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Rotary Encoder-eagle-import:RES_0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Rotary Encoder:RES_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RES_0603_1_0"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -3.175 1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 1.27) (xy -1.905 -1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 3.175 -1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.27) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "S1"
+		(exclude_from_sim no)
+		(at 95.591 125.73 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b52e63e-f210-4581-8a14-4f596e746d69")
+	)
+	(text "R4"
+		(exclude_from_sim no)
+		(at 126.492 88.392 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "127be294-4175-444b-a6c6-566e072dd2f3")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 114.808 155.448 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d6fe9fa-ba47-4382-886a-9cbbcc790b44")
+	)
+	(text "1K"
+		(exclude_from_sim no)
+		(at 79.248 79.756 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify right top)
+		)
+		(uuid "3630c9a0-e6b6-406f-9af5-476b7b10bee1")
+	)
+	(text "C2"
+		(exclude_from_sim no)
+		(at 133.344 100.987 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "3aa90c36-d5ce-4888-8e44-3df33b1d03f9")
+	)
+	(text "+3V3"
+		(exclude_from_sim no)
+		(at 114.3 65.913 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "3da75c8d-1500-4fe4-8a14-98e404b240e9")
+	)
+	(text "1K"
+		(exclude_from_sim no)
+		(at 154.432 81.534 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "49b0cce8-1346-4ea1-83f5-300197eeb250")
+	)
+	(text "1uF"
+		(exclude_from_sim no)
+		(at 97.79 102.362 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "5215bc6e-706a-4f53-8cff-08407d23bf3b")
+	)
+	(text "+3V3"
+		(exclude_from_sim no)
+		(at 72.943 65.846 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "700beca5-7465-4c1e-aaa7-22bcd5ca5700")
+	)
+	(text "10K"
+		(exclude_from_sim no)
+		(at 125.73 93.472 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "76c7543a-f44d-4643-a528-1c802ad9d028")
+	)
+	(text "R2"
+		(exclude_from_sim no)
+		(at 85.852 89.154 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a842b99-5309-46fb-a147-640c96352397")
+	)
+	(text "+3V3"
+		(exclude_from_sim no)
+		(at 148.59 65.278 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "813787e4-cbee-4b6e-8ded-81e0b34b4e9a")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 188.849 109.22 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "816bc861-54ae-4dc5-b71e-8fa3077fc5fa")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 91.186 113.538 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "836e7cd9-af02-4ea4-b72f-b33d69c47cc7")
+	)
+	(text "J1"
+		(exclude_from_sim no)
+		(at 203.687 81.28 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "84ab53c8-a64c-4933-be2f-2348225cbcca")
+	)
+	(text "10K"
+		(exclude_from_sim no)
+		(at 85.09 93.726 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "8634654e-5a47-4e59-9b7b-7e6a61a2daaa")
+	)
+	(text "1uF"
+		(exclude_from_sim no)
+		(at 172.466 101.092 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "8b3ea818-9e39-4a9c-a7ab-3231402346d8")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 132.08 113.03 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f212b95-e04e-4721-bf0f-6ce0618c98f3")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 166.116 112.268 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "99964ee9-6475-480d-808c-ff50798f9c51")
+	)
+	(text "C1"
+		(exclude_from_sim no)
+		(at 91.186 101.854 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "c10c3cbc-83f8-4d2a-9522-f585c09a10f4")
+	)
+	(text "R5"
+		(exclude_from_sim no)
+		(at 149.352 81.534 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4a839eb-7230-4ab2-9cb7-d8bc5986e8bb")
+	)
+	(text "1uF"
+		(exclude_from_sim no)
+		(at 137.166 101.224 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "c80d2cb6-360b-4e7e-a687-9a10935e9a17")
+	)
+	(text "+3V3"
+		(exclude_from_sim no)
+		(at 188.804 66.615 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd907b7e-60e2-4f82-902d-f066a07153c2")
+	)
+	(text "R3"
+		(exclude_from_sim no)
+		(at 114.808 82.042 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcaf6178-c81b-42e1-b283-8e0dc081d617")
+	)
+	(text "10K"
+		(exclude_from_sim no)
+		(at 159.766 92.456 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "de67c937-1e30-43e5-86a0-deb5d7a6575a")
+	)
+	(text "C3"
+		(exclude_from_sim no)
+		(at 166.37 100.838 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6a7aa14-6821-406f-80c2-55ef7e4d0cc3")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 73.914 155.448 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7c67f04-419f-4eab-b047-1b346da2883e")
+	)
+	(text "R1"
+		(exclude_from_sim no)
+		(at 74.168 83.058 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "e93646ae-ec57-40c5-86fb-ade11d82836e")
+	)
+	(text "R6"
+		(exclude_from_sim no)
+		(at 160.274 88.138 0)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left bottom)
+		)
+		(uuid "efd3ebb2-ad7f-46e5-97de-6289a868dd1e")
+	)
+	(text "1K"
+		(exclude_from_sim no)
+		(at 119.888 82.042 90)
+		(effects
+			(font
+				(size 1.48 1.48)
+			)
+			(justify left top)
+		)
+		(uuid "ff1ed0d0-e3d5-441c-8b12-351c301d4927")
+	)
+	(junction
+		(at 151.765 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06067aab-1183-4436-ace4-5563e1670fe9")
+	)
+	(junction
+		(at 117.475 90.805)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2073e6d8-d774-457c-baf8-baa7479543f8")
+	)
+	(junction
+		(at 118.11 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69d0b8e1-f904-414d-a30b-07e68b3b8fb0")
+	)
+	(junction
+		(at 76.835 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7683014d-5dd0-49bf-8950-7211d7eef77a")
+	)
+	(junction
+		(at 169.545 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b9d266f-15c6-4360-895a-04654ec43583")
+	)
+	(junction
+		(at 94.615 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96be8f92-c02b-4445-8053-6de949c22781")
+	)
+	(junction
+		(at 135.255 90.805)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8d208ad-108e-4cc8-a47a-71fafb6cc872")
+	)
+	(wire
+		(pts
+			(xy 99.06 50.165) (xy 99.06 91.44)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "0325b178-ad49-4924-bbc9-95c2588c7bde")
+	)
+	(wire
+		(pts
+			(xy 169.545 95.25) (xy 169.545 90.17)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "05eb7b3c-2871-49c0-af3b-dd83d57aab1a")
+	)
+	(wire
+		(pts
+			(xy 191.77 82.55) (xy 191.77 69.215)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "09f41824-f546-4eac-9b16-e2634091ef25")
+	)
+	(wire
+		(pts
+			(xy 135.255 95.885) (xy 135.255 90.805)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "11541ebb-977d-4fae-b344-bbc71cbcc182")
+	)
+	(wire
+		(pts
+			(xy 196.85 85.09) (xy 176.53 85.09)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "1de9ea57-664c-4f0d-bd21-17a80a7d075f")
+	)
+	(wire
+		(pts
+			(xy 151.765 90.17) (xy 151.765 86.36)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "1e312ece-e8a6-4488-b83c-b6fc49aca0b1")
+	)
+	(wire
+		(pts
+			(xy 169.545 106.68) (xy 169.545 102.87)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "268d0aca-d408-451b-af39-4ebce1c0c4f7")
+	)
+	(wire
+		(pts
+			(xy 80.645 91.44) (xy 76.835 91.44)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "2957e0e7-90cf-4fe0-8ff3-a44aadc3a6cc")
+	)
+	(wire
+		(pts
+			(xy 94.615 107.95) (xy 94.615 104.14)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "34f6c0bc-58c4-496e-82af-6002ca765e15")
+	)
+	(wire
+		(pts
+			(xy 151.765 73.66) (xy 151.765 68.58)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "35481ec0-02f6-4922-ab13-611b5a8d323b")
+	)
+	(wire
+		(pts
+			(xy 83.82 133.35) (xy 76.835 133.35)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "3c3624ca-4acc-4de7-812f-ba21d3da66a1")
+	)
+	(wire
+		(pts
+			(xy 117.475 74.295) (xy 117.475 69.215)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "3ef7f058-7d32-477e-a5a4-2761c4377414")
+	)
+	(wire
+		(pts
+			(xy 191.77 103.505) (xy 191.77 92.71)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "3f424787-deb5-48f0-ab88-7b7f40ee2d41")
+	)
+	(wire
+		(pts
+			(xy 117.475 90.805) (xy 117.475 86.995)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "425230a5-c963-415d-bf73-fcdca6ac3288")
+	)
+	(wire
+		(pts
+			(xy 118.11 143.51) (xy 118.11 138.43)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "5cb01896-3e0e-433f-a0b3-8f35d8b226b5")
+	)
+	(wire
+		(pts
+			(xy 76.835 133.35) (xy 76.835 91.44)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "5df5a610-365e-43d2-8200-43102c387da5")
+	)
+	(wire
+		(pts
+			(xy 118.11 138.43) (xy 109.22 138.43)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "5feb494c-3eb6-4ec2-ba36-988774fa0ab7")
+	)
+	(wire
+		(pts
+			(xy 196.85 82.55) (xy 191.77 82.55)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "6397235e-8d93-4573-b716-d337a25488e7")
+	)
+	(wire
+		(pts
+			(xy 109.22 133.35) (xy 151.765 133.35)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "7a524537-6cf7-4bd7-b22e-ce9d651110d6")
+	)
+	(wire
+		(pts
+			(xy 135.255 90.805) (xy 133.985 90.805)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "7d340888-4ac5-4fc9-97f9-cd4334c8cf78")
+	)
+	(wire
+		(pts
+			(xy 109.22 128.27) (xy 117.475 128.27)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "8833d74d-776e-4180-bcd5-26ef98e01e23")
+	)
+	(wire
+		(pts
+			(xy 76.835 138.43) (xy 76.835 149.86)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "8acf162a-8e3f-4a40-9e5d-b27f932a91cb")
+	)
+	(wire
+		(pts
+			(xy 151.765 133.35) (xy 151.765 90.17)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "8c16cf2f-089e-46a4-97ee-afc8410f461e")
+	)
+	(wire
+		(pts
+			(xy 99.06 91.44) (xy 94.615 91.44)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "9dc69943-8fc1-4307-a486-cf3f99efe020")
+	)
+	(wire
+		(pts
+			(xy 139.065 52.705) (xy 139.065 90.805)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "9f9cb0c6-b256-4495-8fff-068b3436eff4")
+	)
+	(wire
+		(pts
+			(xy 76.835 91.44) (xy 76.835 87.63)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "a2926494-e92e-47b8-a797-95535ebe6112")
+	)
+	(wire
+		(pts
+			(xy 196.85 90.17) (xy 169.545 90.17)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "a488289d-00ee-406c-b0ef-ace26347f275")
+	)
+	(wire
+		(pts
+			(xy 117.475 128.27) (xy 117.475 90.805)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "b1cd7bf8-406e-4e1b-b9c3-772bb5a357ef")
+	)
+	(wire
+		(pts
+			(xy 94.615 96.52) (xy 94.615 91.44)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "b34319c9-5175-4c56-b4eb-47c0db795bc7")
+	)
+	(wire
+		(pts
+			(xy 169.545 90.17) (xy 168.275 90.17)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "bd6f42fc-59f0-4179-bb4d-9e6818689e87")
+	)
+	(wire
+		(pts
+			(xy 121.285 90.805) (xy 117.475 90.805)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "bef9e574-c805-4d8c-bbdf-5e2a4a72378f")
+	)
+	(wire
+		(pts
+			(xy 173.99 52.705) (xy 139.065 52.705)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "bf8b9fd9-08b4-4b69-9d2b-e390ea0782c8")
+	)
+	(wire
+		(pts
+			(xy 94.615 91.44) (xy 93.345 91.44)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "c2cb3e06-e8c2-406d-9ce1-857ca92b3622")
+	)
+	(wire
+		(pts
+			(xy 76.835 74.93) (xy 76.835 69.85)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "c2e24c99-0f27-4a4f-832d-50316228a8bf")
+	)
+	(wire
+		(pts
+			(xy 109.22 143.51) (xy 118.11 143.51)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "cee4e9b8-6203-48bd-a51c-614cf4f54a87")
+	)
+	(wire
+		(pts
+			(xy 196.85 87.63) (xy 173.99 87.63)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "d85a774f-68a0-4682-9e5f-8c8afaacb62b")
+	)
+	(wire
+		(pts
+			(xy 118.11 149.86) (xy 118.11 143.51)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "db08a4ba-8448-450d-8e1b-dedd41a50f14")
+	)
+	(wire
+		(pts
+			(xy 155.575 90.17) (xy 151.765 90.17)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "dc22e76e-e924-4b7c-9e4d-87be84f5909a")
+	)
+	(wire
+		(pts
+			(xy 173.99 87.63) (xy 173.99 52.705)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "e14655b4-3e02-403c-bc2a-9ffcea7e4939")
+	)
+	(wire
+		(pts
+			(xy 135.255 107.315) (xy 135.255 103.505)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "e1e9da65-280c-486c-9cbb-06f73713a273")
+	)
+	(wire
+		(pts
+			(xy 139.065 90.805) (xy 135.255 90.805)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "e3d5f20e-6a9d-4795-8f58-722500dcc904")
+	)
+	(wire
+		(pts
+			(xy 83.82 138.43) (xy 76.835 138.43)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "e9d36ebd-e2df-4445-a508-50b2863cab62")
+	)
+	(wire
+		(pts
+			(xy 176.53 50.165) (xy 99.06 50.165)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "ee46fac1-f438-4737-aea4-5e01b939be64")
+	)
+	(wire
+		(pts
+			(xy 191.77 92.71) (xy 196.85 92.71)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "ff87fb06-5b7a-4918-9076-53517a506353")
+	)
+	(wire
+		(pts
+			(xy 176.53 85.09) (xy 176.53 50.165)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "ffe64942-913a-4517-88f9-d80f7f1dc457")
+	)
+	(symbol
+		(lib_id "Rotary Encoder-eagle-import:RES_0603")
+		(at 151.765 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f491678-57ab-4daf-bb8c-4a360fe4746f")
+		(property "Reference" "R5"
+			(at 151.765 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1K"
+			(at 151.765 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Rotary Encoder:RES_0603"
+			(at 151.765 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.765 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.765 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5c8d625-e187-480c-94a5-2ea14ea38ed9")
+		)
+		(pin "2"
+			(uuid "ed5ab339-bf5c-4195-b862-351dff7d7dc4")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.255 99.695 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15a358cf-e165-4b6a-9103-3497659b9ed8")
+		(property "Reference" "C2"
+			(at 135.255 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1uF"
+			(at 135.255 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Rotary Encoder:CAP_0603"
+			(at 136.2202 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.255 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 135.255 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8244bd9e-a7ee-43c6-8bc4-ee49c23b783b")
+		)
+		(pin "2"
+			(uuid "c0da5035-a060-4123-88a3-ed311522d62c")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 169.545 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "264f54bf-bd45-436e-bbd5-568dfe078693")
+		(property "Reference" "C3"
+			(at 169.545 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1uF"
+			(at 169.545 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Rotary Encoder:CAP_0603"
+			(at 170.5102 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 169.545 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 169.545 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e2c3d08-7042-47d9-b71d-644b3b718fb2")
+		)
+		(pin "2"
+			(uuid "68e3a80c-a2f6-49b4-a8a8-e26bbd49f458")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rotary Encoder-eagle-import:RES_0603")
+		(at 76.835 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "292c3588-5803-47c6-81ce-18e265db3d00")
+		(property "Reference" "R1"
+			(at 76.835 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1K"
+			(at 76.835 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Rotary Encoder:RES_0603"
+			(at 76.835 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.835 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.835 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73db6a78-a0bd-47ad-b561-afffdff34545")
+		)
+		(pin "2"
+			(uuid "76244724-d672-46f2-9583-da231c351cc4")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rotary Encoder-eagle-import:GND")
+		(at 118.11 153.416 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29e64eda-fc8c-4bc6-b212-5bd4c974cfd8")
+		(property "Reference" "#NetPort4"
+			(at 118.11 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee40346a-3135-4ba9-98d7-bf0923a883cf")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "#NetPort4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rotary Encoder-eagle-import:482020514001")
+		(at 96.52 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c4a541e-4e51-4afc-9b47-6e098e97bf79")
+		(property "Reference" "S1"
+			(at 96.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "482020514001"
+			(at 96.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Rotary Encoder:SW_482020514001"
+			(at 96.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7e5fd07-b2f1-4361-a999-b71ee369af9d")
+		)
+		(pin "2"
+			(uuid "3964f2cd-5ae0-4b73-8249-32d0b21ca5c3")
+		)
+		(pin "A"
+			(uuid "976746ab-326b-4582-b018-169033fa8a90")
+		)
+		(pin "B"
+			(uuid "0c2c14be-312f-4fbc-866f-53c2705c6a08")
+		)
+		(pin "C"
+			(uuid "dacce9b1-8818-4a77-9def-daea1bea245a")
+		)
+		(pin "S1"
+			(uuid "1f5b1799-0006-46c5-a046-4d4883e878e8")
+		)
+		(pin "S2"
+			(uuid "0c01c637-4ea5-441b-8994-5eec16ff4fc0")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rotary Encoder-eagle-import:DEV_J1")
+		(at 204.47 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40f9de67-5478-4230-a9ac-fc31aa2de850")
+		(property "Reference" "J1"
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DEV_J1"
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Rotary Encoder:RHDRV5W80P254_5X1_1320X250H875_AP1"
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ed7093ff-877c-4f91-80b9-a6dccdc1a226")
+		)
+		(pin "4"
+			(uuid "c0924169-7846-404b-996a-bca2649f61ed")
+		)
+		(pin "3"
+			(uuid "06cab800-c803-463c-915f-7b32a2c4b46f")
+		)
+		(pin "2"
+			(uuid "2a660a95-5867-4a32-b147-770acb210f8d")
+		)
+		(pin "1"
+			(uuid "f71789d7-ee73-492d-bc9a-08e3d27f3070")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rotary Encoder-eagle-import:GND")
+		(at 94.615 111.506 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5553537c-4228-40e4-a7c0-4fd50fbf9cc1")
+		(property "Reference" "#NetPort2"
+			(at 94.615 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 94.615 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 94.615 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 94.615 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 94.615 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d459d26-1102-41fa-a6a6-3dbe52ac0cfb")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "#NetPort2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rotary Encoder-eagle-import:RES_0603")
+		(at 127.635 90.805 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d91742a-9529-4b14-8389-02725c4c50cf")
+		(property "Reference" "R4"
+			(at 127.635 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10K"
+			(at 127.635 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Rotary Encoder:RES_0603"
+			(at 127.635 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127.635 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127.635 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b076619a-a104-4cef-b10c-7a61536d34ec")
+		)
+		(pin "2"
+			(uuid "c5757112-1da9-4cb9-a9ad-e46e78d75165")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rotary Encoder-eagle-import:+3V3")
+		(at 117.475 66.675 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67a4baa6-754a-44d1-8a9c-83532b82024c")
+		(property "Reference" "#NetPort7"
+			(at 117.475 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 117.475 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 117.475 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 117.475 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 117.475 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f8dea08-4627-4938-ab26-dedaa56ea70d")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "#NetPort7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 94.615 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7088e564-08d3-42ae-a68e-5e5caa9dc7f3")
+		(property "Reference" "C1"
+			(at 94.615 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1uF"
+			(at 94.615 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Rotary Encoder:CAP_0603"
+			(at 95.5802 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 94.615 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 94.615 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86141c46-7bfc-4a3b-bf64-ea6b4e3b1615")
+		)
+		(pin "2"
+			(uuid "bae32170-81d0-421b-bfa8-48a3c779e7ae")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rotary Encoder-eagle-import:+3V3")
+		(at 151.765 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81e474d0-ad74-4ac7-89ed-518dd3a0480b")
+		(property "Reference" "#NetPort9"
+			(at 151.765 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 151.765 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.765 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.765 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.765 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f060a2dd-0a38-481c-aa11-ba9b6173da41")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "#NetPort9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rotary Encoder-eagle-import:GND")
+		(at 76.835 153.416 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87d3eb6a-3901-4b60-897a-16b54172205b")
+		(property "Reference" "#NetPort3"
+			(at 76.835 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.835 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.835 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.835 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.835 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c55046c5-8b60-4b8a-9b6a-a36e40372883")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "#NetPort3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rotary Encoder-eagle-import:GND")
+		(at 135.255 110.871 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9248dd5a-4e82-4d9d-85bf-c6f1c0839f2a")
+		(property "Reference" "#NetPort8"
+			(at 135.255 110.871 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.255 110.871 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.255 110.871 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.255 110.871 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.255 110.871 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78e0b32c-980c-471a-972f-e704d1bc9e44")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "#NetPort8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rotary Encoder-eagle-import:RES_0603")
+		(at 86.995 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b19afafc-d0a4-4387-977f-50c338a24e43")
+		(property "Reference" "R2"
+			(at 86.995 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10K"
+			(at 86.995 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Rotary Encoder:RES_0603"
+			(at 86.995 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.995 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.995 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f4d047c-0a88-49d8-8456-9bdcf3843c46")
+		)
+		(pin "2"
+			(uuid "f066ca2b-14f1-4007-8809-36b805da9106")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rotary Encoder-eagle-import:+3V3")
+		(at 191.77 66.675 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b766d7ed-3963-4655-be65-a323ed970a96")
+		(property "Reference" "#NetPort6"
+			(at 191.77 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 191.77 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3656a7fc-a4a2-4f78-b281-2e6def64b965")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "#NetPort6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rotary Encoder-eagle-import:RES_0603")
+		(at 117.475 80.645 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "badda4fe-92e9-48d6-9b06-941d4a9ac983")
+		(property "Reference" "R3"
+			(at 117.475 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1K"
+			(at 117.475 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Rotary Encoder:RES_0603"
+			(at 117.475 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 117.475 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 117.475 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d91cf23-be1a-4e4a-ac82-01936096a92e")
+		)
+		(pin "2"
+			(uuid "0367001c-234f-4282-bb3c-9eb9ad826c51")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rotary Encoder-eagle-import:GND")
+		(at 169.545 110.236 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de7437b3-405c-48b1-8118-d197af2f2ecd")
+		(property "Reference" "#NetPort10"
+			(at 169.545 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 169.545 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.545 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 169.545 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 169.545 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9acbaafb-df99-45dc-baa1-72e8cddf4395")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "#NetPort10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rotary Encoder-eagle-import:+3V3")
+		(at 76.835 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6446679-4cbd-4b32-8f6d-a1ae0f2c6c69")
+		(property "Reference" "#NetPort1"
+			(at 76.835 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 76.835 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.835 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.835 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.835 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67fd2e92-3447-4f17-9fdf-6d2265a0e995")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "#NetPort1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rotary Encoder-eagle-import:RES_0603")
+		(at 161.925 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb70251b-ea76-4295-8394-5310bde8dbff")
+		(property "Reference" "R6"
+			(at 161.925 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10K"
+			(at 161.925 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Rotary Encoder:RES_0603"
+			(at 161.925 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.925 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.925 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "247df941-b515-4801-9600-4c36a2db42c8")
+		)
+		(pin "2"
+			(uuid "6d1ad108-d4f7-4104-941c-77e8cc119077")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rotary Encoder-eagle-import:GND")
+		(at 191.77 107.061 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffdcb226-295b-43d7-9ecf-37f845324545")
+		(property "Reference" "#NetPort5"
+			(at 191.77 107.061 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 107.061 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 107.061 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 107.061 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 107.061 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c445c0b-c8b0-498a-807b-a138c435e9b3")
+		)
+		(instances
+			(project ""
+				(path "/4ee6c114-93a8-4bf1-967f-c6230650ee4d"
+					(reference "#NetPort5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
